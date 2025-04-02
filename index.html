@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>भारत सरकार | Income Tax Reward Program 2025</title>
+    <style>
+        :root {
+            --primary-color: #F37E20;
+            --secondary-color: #0B5394;
+            --accent-color: #00693E;
+            --light-bg: #f9f9f9;
+            --border-color: #ddd;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: var(--light-bg);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 5px solid var(--accent-color);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 70px;
+            margin-right: 15px;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 12px;
+            padding: 5px;
+        }
+        
+        .site-title {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .site-title h1 {
+            color: var(--secondary-color);
+            font-size: 22px;
+            margin: 0;
+            font-weight: bold;
+        }
+        
+        .site-title p {
+            color: var(--primary-color);
+            font-size: 16px;
+            margin: 0;
+        }
+        
+        .header-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        .nav-bar {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+        }
+        
+        .nav-bar ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        .nav-bar li {
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        
+        .nav-bar li:hover {
+            text-decoration: underline;
+        }
+        
+        .banner {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .banner h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .banner p {
+            font-size: 16px;
+        }
+        
+        .content {
+            padding: 30px 20px;
+        }
+        
+        .reward-tiers {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        
+        .tier-card {
+            width: 23%;
+            min-width: 200px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .tier-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .tier-silver {
+            border-top: 5px solid #C0C0C0;
+        }
+        
+        .tier-gold {
+            border-top: 5px solid #FFD700;
+        }
+        
+        .tier-diamond {
+            border-top: 5px solid #B9F2FF;
+        }
+        
+        .tier-platinum {
+            border-top: 5px solid #E5E4E2;
+        }
+        
+        .tier-image {
+            height: 80px;
+            width: 80px;
+            margin: 0 auto 15px;
+            background-color: #f1f1f1;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 12px;
+        }
+        
+        .tier-card h3 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+        
+        .tier-card p.tax-slab {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .tier-card ul {
+            text-align: left;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .tier-card li {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        .form-section {
+            background-color: #f5f5f5;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .form-section h2 {
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background-color: #e06c10;
+        }
+        
+        footer {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        /* Loading overlay */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            display: none;
+        }
+        
+        .spinner {
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid var(--primary-color);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: A20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Prank reveal section */
+        .prank-reveal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            padding: 20px;
+            text-align: center;
+            display: none;
+            overflow-y: auto;
+        }
+        
+        .prank-reveal h2 {
+            color: var(--primary-color);
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        
+        .prank-image {
+            max-width: 300px;
+            height: 300px;
+            margin: 20px 0;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .prank-reveal p {
+            margin-bottom: 15px;
+            font-size: 18px;
+            max-width: 800px;
+        }
+        
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background-color: #f00;
+            animation: fall 5s linear infinite;
+            z-index: 1001;
+        }
+        
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .reward-tiers {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .tier-card {
+                width: 100%;
+                max-width: 300px;
+                margin-bottom: 20px;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .logo-container {
+                margin-bottom: 10px;
+            }
+            
+            .header-right {
+                align-items: center;
+                margin-top: 10px;
+            }
+            
+            .nav-bar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-bar li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="/api/placeholder/70/70" alt="Income Tax Department Logo" />
+                    </div>
+                    <div class="site-title">
+                        <h1>INCOME TAX DEPARTMENT</h1>
+                        <p>Government of India | भारत सरकार</p>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <p>File Your Returns | Pay Taxes | Track Refund</p>
+                </div>
+            </div>
+        </header>
+        
+        <div class="nav-bar">
+            <ul>
+                <li>Home</li>
+                <li>Tax Services</li>
+                <li>E-Filing</li>
+                <li>Reward Program</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        
+        <div class="banner">
+            <h2>SPECIAL ANNOUNCEMENT: Tax Reward Program 2025</h2>
+            <p>Celebrating honest taxpayers! The Government of India is rewarding citizens who diligently file and pay their taxes.</p>
+        </div>
+        
+        <div class="content">
+            <h2 style="color: var(--secondary-color); text-align: center; margin-bottom: 20px;">Tax Reward Tiers Based on Your Contribution</h2>
+            <p style="text-align: center; margin-bottom: 30px;">The Government of India values your contribution to nation-building. Based on your income tax slab, you are eligible for these exclusive rewards!</p>
+            
+            <div class="reward-tiers">
+                <div class="tier-card tier-silver">
+                    <div class="tier-image">
+                        <img src="/api/placeholder/80/80" alt="Silver Tier" />
+                    </div>
+                    <h3>Silver Tier</h3>
+                    <p class="tax-slab">₹2.5 Lakh - ₹5 Lakh</p>
+                    <ul>
+                        <li>Digital Certificate of Appreciation</li>
+                        <li>10% discount on passport fees</li>
+                        <li>Priority service at government offices</li>
+                        <li>Special help desk at ITD offices</li>
+                    </ul>
+                </div>
+                
+                <div class="tier-card tier-gold">
+                    <div class="tier-image">
+                        <img src="/api/placeholder/80/80" alt="Gold Tier" />
+                    </div>
+                    <h3>Gold Tier</h3>
+                    <p class="tax-slab">₹5 Lakh - ₹10 Lakh</p>
+                    <ul>
+                        <li>All Silver benefits</li>
+                        <li>Annual tax consultation (free)</li>
+                        <li>20% discount on select train tickets</li>
+                        <li>Access to airport lounge (twice/year)</li>
+                    </ul>
+                </div>
+                
+                <div class="tier-card tier-diamond">
+                    <div class="tier-image">
+                        <img src="/api/placeholder/80/80" alt="Diamond Tier" />
+                    </div>
+                    <h3>Diamond Tier</h3>
+                    <p class="tax-slab">₹10 Lakh - ₹50 Lakh</p>
+                    <ul>
+                        <li>All Gold benefits</li>
+                        <li>Tax breaks on health insurance</li>
+                        <li>Special invitation to Republic Day</li>
+                        <li>Dedicated relationship manager</li>
+                    </ul>
+                </div>
+                
+                <div class="tier-card tier-platinum">
+                    <div class="tier-image">
+                        <img src="/api/placeholder/80/80" alt="Platinum Tier" />
+                    </div>
+                    <h3>Platinum Tier</h3>
+                    <p class="tax-slab">Above ₹50 Lakh</p>
+                    <ul>
+                        <li>All Diamond benefits</li>
+                        <li>Special investment opportunities</li>
+                        <li>VIP passes to national events</li>
+                        <li>Meet with Finance Minister (annual)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <h2>Register for Your Tax Rewards</h2>
+                <form id="reward-form">
+                    <div class="form-group">
+                        <label for="pan">PAN Number*</label>
+                        <input type="text" id="pan" placeholder="ABCDE1234F" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name (as per PAN)*</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="dob">Date of Birth*</label>
+                        <input type="date" id="dob" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number*</label>
+                        <input type="tel" id="mobile" placeholder="9876543210" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="income">Annual Income (FY 2024-25)*</label>
+                        <select id="income" required>
+                            <option value="">Select Income Range</option>
+                            <option value="silver">₹2.5 Lakh - ₹5 Lakh</option>
+                            <option value="gold">₹5 Lakh - ₹10 Lakh</option>
+                            <option value="diamond">₹10 Lakh - ₹50 Lakh</option>
+                            <option value="platinum">Above ₹50 Lakh</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit">Register Now</button>
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Income Tax Department, Government of India. All rights reserved.</p>
+            <p>Helpline: 1800-11-4000 | Email: taxrewards@incometax.gov.in</p>
+        </footer>
+    </div>
+    
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="spinner"></div>
+        <p>Validating your details...</p>
+        <p>Please wait while we process your request...</p>
+    </div>
+    
+    <div class="prank-reveal" id="prank-reveal">
+        <h2>APRIL FOOLS! 🎉</h2>
+        <div class="prank-image">
+            <img src="/api/placeholder/300/300" alt="April Fools Joke" />
+        </div>
+        <p>Did you really think the Indian Government would reward you for paying taxes that are MANDATORY by law? 😂</p>
+        <p>The only reward you get for paying taxes is... <b>not going to jail!</b></p>
+        <p>In reality, your tax money is hard at work:</p>
+        <ul style="text-align: left; max-width: 600px; margin: 0 auto 20px auto;">
+            <li>Filling potholes (that will reappear next monsoon)</li>
+            <li>Building government offices (that will be under renovation forever)</li>
+            <li>Funding politicians' tea breaks (very expensive tea, apparently)</li>
+            <li>Creating more forms for you to fill out next year!</li>
+        </ul>
+        <p><b>But seriously,</b> thank you for being a responsible citizen and paying your taxes. The country genuinely needs them for development.</p>
+        <p style="font-size: 24px; margin-top: 20px;"><b>Happy April Fools' Day!</b></p>
+        <button onclick="window.location.reload()" style="max-width: 300px; margin-top: 30px;">Back to Reality</button>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('reward-form');
+            const loadingOverlay = document.getElementById('loading-overlay');
+            const prankReveal = document.getElementById('prank-reveal');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Show loading overlay
+                loadingOverlay.style.display = 'flex';
+                
+                // After 3 seconds, show the prank reveal
+                setTimeout(function() {
+                    loadingOverlay.style.display = 'none';
+                    prankReveal.style.display = 'flex';
+                    createConfetti();
+                }, 3000);
+            });
+            
+            // Function to create confetti effect
+            function createConfetti() {
+                const colors = ['#F37E20', '#0B5394', '#00693E', '#FFD700', '#C0C0C0', '#E5E4E2'];
+                
+                // Create 100 confetti pieces
+                for (let i = 0; i < 100; i++) {
+                    setTimeout(function() {
+                        const confetti = document.createElement('div');
+                        confetti.classList.add('confetti');
+                        
+                        // Random styling
+                        confetti.style.left = Math.random() * 100 + 'vw';
+                        confetti.style.width = Math.random() * 10 + 5 + 'px';
+                        confetti.style.height = confetti.style.width;
+                        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                        confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+                        
+                        document.body.appendChild(confetti);
+                        
+                        // Remove confetti after animation
+                        setTimeout(function() {
+                            confetti.remove();
+                        }, 5000);
+                    }, i * 50);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
